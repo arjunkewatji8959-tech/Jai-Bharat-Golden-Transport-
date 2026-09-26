@@ -16,10 +16,8 @@ routeBtn?.addEventListener("click", () => {
 });
 
 document.querySelectorAll(".fleet-book").forEach(btn => btn.addEventListener("click", () => {
-  const select = document.querySelector("#vehicleSelect");
-  if (select) select.value = btn.dataset.vehicle || "";
-  document.querySelector("#booking")?.scrollIntoView({behavior:"smooth"});
-  setTimeout(() => document.querySelector('[name="name"]')?.focus(), 500);
+  const vehicle = btn.dataset.vehicle || "";
+  window.location.href = `booking.html?vehicle=${encodeURIComponent(vehicle)}`;
 }));
 
 const bookingForm = document.querySelector("#bookingForm");
@@ -35,6 +33,8 @@ bookingForm?.addEventListener("submit", event => {
 
 const dateInput = document.querySelector('[name="date"]');
 if (dateInput) { const today=new Date(); const yyyy=today.getFullYear(); const mm=String(today.getMonth()+1).padStart(2,"0"); const dd=String(today.getDate()).padStart(2,"0"); dateInput.min=`${yyyy}-${mm}-${dd}`; }
+const bookingVehicle = new URLSearchParams(window.location.search).get("vehicle");
+if (bookingVehicle) { const vehicleSelect=document.querySelector("#vehicleSelect"); if (vehicleSelect) vehicleSelect.value=bookingVehicle; document.querySelector('[name="name"]')?.focus(); }
 document.querySelectorAll("#year").forEach(el => el.textContent = new Date().getFullYear());
 function escapeHtml(value){return String(value).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[c]));}
 
@@ -52,7 +52,7 @@ function closeVehicleModal(){if(!modal)return;modal.classList.remove('open');mod
 document.querySelectorAll('.fleet-card h3').forEach(h=>h.addEventListener('click',()=>openVehicleModal(h.textContent.trim())));
 document.querySelectorAll('[data-close-modal]').forEach(el=>el.addEventListener('click',closeVehicleModal));
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closeVehicleModal();});
-document.querySelector('#modalBookBtn')?.addEventListener('click',()=>{const name=modal?.dataset.vehicle;closeVehicleModal();const select=document.querySelector('#vehicleSelect');if(select&&name)select.value=name;document.querySelector('#booking')?.scrollIntoView({behavior:'smooth'});setTimeout(()=>document.querySelector('[name="name"]')?.focus(),450);});
+document.querySelector('#modalBookBtn')?.addEventListener('click',()=>{const name=modal?.dataset.vehicle;closeVehicleModal();if(name)window.location.href=`booking.html?vehicle=${encodeURIComponent(name)}`;else window.location.href='booking.html';});
 
 // Replace fleet buttons with detail-first interaction while keeping booking flow.
 document.querySelectorAll('.fleet-book').forEach(btn=>{btn.addEventListener('click',()=>openVehicleModal(btn.dataset.vehicle));});
