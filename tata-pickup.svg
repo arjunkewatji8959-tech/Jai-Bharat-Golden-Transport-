@@ -1,24 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#04152a"/><stop offset="1" stop-color="#0d3556"/></linearGradient>
- <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe08a"/><stop offset=".45" stop-color="#f5b83d"/><stop offset="1" stop-color="#d9820f"/></linearGradient>
- <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#b8c6d3"/></linearGradient>
-</defs>
-<rect width="900" height="520" rx="36" fill="url(#bg)"/>
-<circle cx="760" cy="90" r="150" fill="#f5b83d" opacity=".08"/>
-<path d="M0 392 Q300 345 900 385 V520 H0Z" fill="#02101f"/>
-<path d="M40 418 H860" stroke="#f5b83d" stroke-width="5" stroke-dasharray="28 20" opacity=".8"/>
-<rect x="170" y="245" width="300" height="82" rx="8" fill="url(#gold)"/>
-<rect x="185" y="259" width="270" height="54" rx="5" fill="#102e4b"/>
-<path d="M520 215 L548 190 H662 Q698 190 705 228 L715 345 H515 Z" fill="url(#gold)"/>
-<path d="M550 205 H645 Q671 205 678 229 L682 267 H545 Z" fill="#071a2d" stroke="#f8d77d" stroke-width="4"/>
-<path d="M550 280 H688" stroke="#0a2138" stroke-width="9"/>
-<path d="M568 300 H674" stroke="#0a2138" stroke-width="7"/>
-<circle cx="566" cy="354" r="36" fill="#071321" stroke="url(#gold)" stroke-width="10"/>
-<circle cx="566" cy="354" r="12" fill="#9baaba"/>
-<circle cx="242" cy="354" r="36" fill="#071321" stroke="url(#gold)" stroke-width="10"/>
-<circle cx="242" cy="354" r="12" fill="#9baaba"/>
-<rect x="632" y="320" width="58" height="12" rx="6" fill="#f5b83d"/>
-<text x="450" y="95" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="3">JAI BHARAT GOLDEN TRANSPORT</text>
-<text x="450" y="455" text-anchor="middle" fill="#ffd878" font-family="Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="2">TATA PICKUP • SMALL CARGO</text>
-</svg>
+<defs><linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#04172c"/><stop offset=".55" stop-color="#0b3151"/><stop offset="1" stop-color="#182f42"/></linearGradient><linearGradient id="road" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0b1016"/><stop offset="1" stop-color="#24313c"/></linearGradient></defs>
+<rect width="900" height="520" fill="url(#sky)"/><circle cx="740" cy="100" r="62" fill="#f6c453" opacity=".12"/><path d="M0 350 170 225 300 320 450 190 600 320 760 215 900 330V430H0Z" fill="#0a2238"/><path d="M0 425 Q450 350 900 425 V520 H0Z" fill="url(#road)"/><path d="M0 455 Q450 385 900 455" stroke="#f6c453" stroke-width="5" stroke-dasharray="26 22" opacity=".8"/>
+<text x="48" y="62" fill="#fff" font-family="Arial,sans-serif" font-size="22" font-weight="800" letter-spacing="3">JAI BHARAT GOLDEN TRANSPORT</text>
+<path d="M150 330h340l70-75h115l75 75h55v72H150z" fill="#f6c453" stroke="#fff" stroke-width="6"/><path d="M560 255h105l45 75H560z" fill="#123a5a" stroke="#fff" stroke-width="6"/><path d="M185 345h300" stroke="#0a3152" stroke-width="15"/>
+<g fill="#101820" stroke="#f6c453" stroke-width="7"><circle cx="255" cy="410" r="34"/><circle cx="655" cy="410" r="34"/><circle cx="790" cy="410" r="34"/></g><g fill="#dbe6ef"><circle cx="255" cy="410" r="11"/><circle cx="655" cy="410" r="11"/><circle cx="790" cy="410" r="11"/></g>
+<text x="48" y="478" fill="#f6c453" font-family="Arial,sans-serif" font-size="22" font-weight="800">TATA PICKUP  •  1–2 TON</text></svg>
