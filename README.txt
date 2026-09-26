@@ -1,37 +1,27 @@
 # Jai Bharat Golden Transport Website
 
-Static, responsive website for जय भारत गोल्डन ट्रांसपोर्ट, Jabalpur.
+Professional responsive static website for Jai Bharat Golden Transport, Jabalpur.
 
-## Included
-- Responsive home page for mobile/tablet/desktop
-- Company/owner/contact details
-- Branch/service locations
-- Fleet cards: Tata Pickup, 14ft, 17ft, 19ft, 22ft
-- Route enquiry
-- Booking form
-- Direct WhatsApp booking to 9691804027
-- Floating WhatsApp button
-- XML sitemap + robots.txt
-- Google Search Console meta tag placeholder
+## Updated
+- All customer-facing website text is in English.
+- Removed the top information bar; navigation is the first element.
+- About Us opens a separate `about.html` page.
+- Contact Us opens a separate `contact.html` page.
+- Hero background now uses a transport vehicle visual instead of the logo.
+- Professional owner portrait included.
+- Booking form includes a required Pickup Date.
+- Clicking `Book Now on WhatsApp` sends all entered details, including the formatted pickup date, directly to the owner's WhatsApp: +91 96918 04027.
+- SEO title, description, keywords, structured data and image alt text have been improved without keyword stuffing.
+- Responsive navigation and footer improved for mobile, tablet and desktop.
 
-## Before going live
-1. Replace `YOUR-DOMAIN.example` in `index.html`, `robots.txt`, and `sitemap.xml` with the real domain.
-2. In Google Search Console, create/verify the property and replace `YOUR_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE` in `index.html` with the exact token Google provides.
-3. Submit `/sitemap.xml` in Search Console.
-4. Confirm the exact branch names/addresses and vehicle capacities with the company before publishing them as final facts.
+## SEO
+Replace `https://YOUR-DOMAIN.example/` in the canonical tags, `robots.txt` and `sitemap.xml` with the real live domain.
+Add the actual Google Search Console verification token when available.
 
-## Booking
-The form opens WhatsApp with a prefilled booking message to +91 9691804027. No server/database is required for this initial static version.
+Important: adding excessive repeated keywords does not automatically improve Google rankings. Relevant content, correct local business information, page speed, mobile usability, useful pages, links and Search Console indexing matter more.
 
-## Social Media
-Instagram, Facebook, WhatsApp and Telegram buttons are included. WhatsApp uses 9691804027. Replace the Instagram/Facebook/Telegram placeholder profile URLs in index.html with the company's official profile links when those handles are available.
+## Social Links
+Instagram, Facebook and Telegram currently point to their generic sites because the company's official profile URLs were not supplied. Replace them with the real company profile URLs before publishing.
 
-
-## GitHub upload
-Keep this entire `Jai_Bharat_Golden_Transport` folder as the repository root.
-`index.html`, `style.css`, `script.js`, `robots.txt`, `sitemap.xml` and `assets/` must be at the same root level.
-
-## Social media
-Instagram, Facebook, Telegram and WhatsApp buttons are included.
-WhatsApp is connected to +91 9691804027.
-Instagram/Facebook/Telegram currently open their main sites because the company's exact profile handles/URLs were not supplied. Replace those three href values in `index.html` with the company's actual profile URLs before publishing.
+## Deployment
+Upload the contents of this folder to GitHub or any static hosting service. `index.html` is the home page.
