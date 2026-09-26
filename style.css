@@ -105,3 +105,63 @@ footer h3,footer h4{color:#fff;margin-bottom:10px}footer p,footer a{color:#9fb1c
  .footer-grid{grid-template-columns:1fr}.footer-grid>div:first-child{grid-column:auto}.page-hero{padding:60px 0;background-size:95% auto;background-position:center bottom}
  .float-wa{right:14px;bottom:14px;width:54px;height:54px}
 }
+
+/* --- Premium brand refresh: Jai Bharat Golden Transport --- */
+:root{
+  --navy:#03182d;
+  --navy2:#0a3152;
+  --gold:#f6c453;
+  --gold2:#d88b16;
+  --orange:#ef7d18;
+}
+.nav{background:linear-gradient(90deg,#021326 0%,#062744 55%,#03182d 100%);border-bottom:1px solid rgba(246,196,83,.22)}
+.brand img{border:2px solid rgba(246,196,83,.65);box-shadow:0 5px 18px rgba(0,0,0,.28)}
+.brand strong{letter-spacing:-.3px}.brand span{color:#f6c453}
+nav a:hover,nav a.active{color:#f6c453}
+nav a:after{background:linear-gradient(90deg,#ffe28a,#ef7d18)}
+.hero{min-height:590px;background-image:linear-gradient(90deg,rgba(2,15,29,.93) 0%,rgba(3,23,42,.72) 48%,rgba(3,23,42,.30) 100%),url('hero-transport.jpg');background-position:center center}
+.hero:before{background:linear-gradient(90deg,rgba(0,10,20,.20),transparent 70%),radial-gradient(circle at 72% 35%,rgba(246,196,83,.18),transparent 25%)}
+.hero-content{max-width:900px;padding:68px 0}
+.hero h1{max-width:900px;font-size:clamp(42px,5vw,64px);line-height:1.02;letter-spacing:-2.2px}
+.hero h1 span{display:inline;color:#f6c453;text-shadow:0 4px 18px rgba(0,0,0,.2)}
+.hero p{max-width:760px;color:#e4edf7}
+.hero-stats{gap:42px}.hero-stats>div{padding-left:15px;border-left:2px solid rgba(246,196,83,.55)}
+.service-grid{gap:20px}
+.service-card{background:linear-gradient(145deg,#0a2a48,#061b32);border:1px solid rgba(246,196,83,.22);box-shadow:0 16px 38px rgba(3,24,45,.14)}
+.service-card .icon{width:58px;height:58px;color:#f6c453;background:linear-gradient(145deg,rgba(246,196,83,.18),rgba(239,125,24,.10));border:1px solid rgba(246,196,83,.42);box-shadow:0 10px 25px rgba(0,0,0,.16)}
+.service-card .icon svg{width:30px;height:30px}
+.service-card h3{color:#fff}.service-card p{color:#b9cce0}
+.route-section{background:linear-gradient(180deg,#eef5fb,#f8fafc)}
+.fleet-grid{gap:20px}
+.fleet-card{border:1px solid #e4e8ed;box-shadow:0 15px 38px rgba(3,24,45,.09);background:#fff}
+.fleet-card:hover{border-color:rgba(216,139,22,.55);box-shadow:0 18px 45px rgba(3,24,45,.14)}
+.fleet-card img{aspect-ratio:1.65;background:linear-gradient(145deg,#04182d,#0a3152);padding:0;object-fit:cover}
+.tag{background:#fff4d7;color:#9a6108;border:1px solid #f4d68c}
+.fleet-card h3{font-size:20px}.fleet-card strong{color:#d27b0c}
+.booking-section{background:linear-gradient(135deg,#03182d 0%,#0a3152 100%)}
+.owner-photo{border:1px solid rgba(246,196,83,.3);box-shadow:0 20px 50px rgba(3,24,45,.18)}
+footer{background:linear-gradient(135deg,#020f20,#041b32)}
+.footer-brand img{border:2px solid rgba(246,196,83,.5)}
+.float-wa{box-shadow:0 12px 30px rgba(18,140,126,.42)}
+
+@media(max-width:1050px){
+  .fleet-grid{grid-template-columns:repeat(2,1fr)}
+  .hero-content{max-width:820px}
+}
+@media(max-width:760px){
+  .nav{height:62px;padding:0 4%}
+  .brand img{width:40px;height:40px}.brand strong{font-size:14px}.brand span{font-size:8px}
+  nav{top:68px;background:linear-gradient(180deg,#03182d,#082d4d)}
+  .hero{min-height:420px;align-items:flex-end;background-position:57% center;background-size:cover}
+  .hero-content{padding:34px 0 28px;max-width:100%}
+  .hero h1{font-size:34px;line-height:1.03;letter-spacing:-1px;margin:11px 0 13px;max-width:100%}
+  .hero h1 span{display:block}
+  .hero p{font-size:13px;line-height:1.48;max-width:100%}
+  .hero-actions{margin:17px 0 12px}.hero-stats{gap:14px}.hero-stats>div{padding-left:9px}.hero-stats b{font-size:17px}.hero-stats small{font-size:9px}
+  .section{padding:54px 0}
+  .fleet-grid{grid-template-columns:1fr;gap:15px}
+  .fleet-card img{aspect-ratio:1.7}
+  .service-card{padding:22px}
+  .service-card .icon{width:52px;height:52px}
+  .booking-form{padding:16px}
+}

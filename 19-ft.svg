@@ -1,14 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
-      <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#071b35"/><stop offset="1" stop-color="#123a63"/></linearGradient></defs>
-      <rect width="900" height="520" rx="36" fill="url(#g)"/>
-      <circle cx="760" cy="90" r="150" fill="#27ae60" opacity=".12"/>
-      <path d="M95 335h105l45-115h330l75 115h155v55H95z" fill="#27ae60" opacity=".96"/>
-      <rect x="265" y="245" width="250" height="82" rx="10" fill="#dce8f4"/>
-      <path d="M560 245h85l55 82H560z" fill="#c8d9e8"/>
-      <rect x="120" y="295" width="90" height="45" rx="8" fill="#0b1524"/>
-      <circle cx="250" cy="397" r="45" fill="#111827"/><circle cx="250" cy="397" r="18" fill="#b9c7d8"/>
-      <circle cx="660" cy="397" r="45" fill="#111827"/><circle cx="660" cy="397" r="18" fill="#b9c7d8"/>
-      <text x="55" y="75" fill="white" font-family="Arial" font-size="38" font-weight="700">19 FEET</text>
-      <text x="55" y="118" fill="#27ae60" font-family="Arial" font-size="26" font-weight="700">8–9 TON</text>
-      <text x="55" y="475" fill="#cbd5e1" font-family="Arial" font-size="20">Jai Bharat Golden Transport • Jabalpur</text>
-    </svg>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#04152a"/><stop offset="1" stop-color="#0d3556"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe08a"/><stop offset=".45" stop-color="#f5b83d"/><stop offset="1" stop-color="#d9820f"/></linearGradient>
+ <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#b8c6d3"/></linearGradient>
+</defs>
+<rect width="900" height="520" rx="36" fill="url(#bg)"/>
+<circle cx="760" cy="90" r="150" fill="#f5b83d" opacity=".08"/>
+<path d="M0 392 Q300 345 900 385 V520 H0Z" fill="#02101f"/>
+<path d="M40 418 H860" stroke="#f5b83d" stroke-width="5" stroke-dasharray="28 20" opacity=".8"/>
+<rect x="135" y="225" width="450" height="110" rx="8" fill="url(#gold)"/>
+<rect x="150" y="239" width="420" height="82" rx="5" fill="#102e4b"/>
+<path d="M585 215 L613 190 H727 Q763 190 770 228 L780 345 H580 Z" fill="url(#gold)"/>
+<path d="M615 205 H710 Q736 205 743 229 L747 267 H610 Z" fill="#071a2d" stroke="#f8d77d" stroke-width="4"/>
+<path d="M615 280 H753" stroke="#0a2138" stroke-width="9"/>
+<path d="M633 300 H739" stroke="#0a2138" stroke-width="7"/>
+<circle cx="631" cy="354" r="36" fill="#071321" stroke="url(#gold)" stroke-width="10"/>
+<circle cx="631" cy="354" r="12" fill="#9baaba"/>
+<circle cx="207" cy="354" r="36" fill="#071321" stroke="url(#gold)" stroke-width="10"/>
+<circle cx="207" cy="354" r="12" fill="#9baaba"/>
+<rect x="697" y="320" width="58" height="12" rx="6" fill="#f5b83d"/>
+<text x="450" y="95" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="3">JAI BHARAT GOLDEN TRANSPORT</text>
+<text x="450" y="455" text-anchor="middle" fill="#ffd878" font-family="Arial, sans-serif" font-size="22" font-weight="800" letter-spacing="2">19 FEET • 8–9 TON</text>
+</svg>
