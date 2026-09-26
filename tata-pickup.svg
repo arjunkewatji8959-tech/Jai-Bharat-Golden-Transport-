@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+      <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#071b35"/><stop offset="1" stop-color="#123a63"/></linearGradient></defs>
+      <rect width="900" height="520" rx="36" fill="url(#g)"/>
+      <circle cx="760" cy="90" r="150" fill="#f5a623" opacity=".12"/>
+      <path d="M95 335h105l45-115h330l75 115h155v55H95z" fill="#f5a623" opacity=".96"/>
+      <rect x="265" y="245" width="250" height="82" rx="10" fill="#dce8f4"/>
+      <path d="M560 245h85l55 82H560z" fill="#c8d9e8"/>
+      <rect x="120" y="295" width="90" height="45" rx="8" fill="#0b1524"/>
+      <circle cx="250" cy="397" r="45" fill="#111827"/><circle cx="250" cy="397" r="18" fill="#b9c7d8"/>
+      <circle cx="660" cy="397" r="45" fill="#111827"/><circle cx="660" cy="397" r="18" fill="#b9c7d8"/>
+      <text x="55" y="75" fill="white" font-family="Arial" font-size="38" font-weight="700">TATA PICKUP</text>
+      <text x="55" y="118" fill="#f5a623" font-family="Arial" font-size="26" font-weight="700">1–2 TON</text>
+      <text x="55" y="475" fill="#cbd5e1" font-family="Arial" font-size="20">Jai Bharat Golden Transport • Jabalpur</text>
+    </svg>
