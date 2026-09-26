@@ -129,3 +129,22 @@ html,body{max-width:100%;overflow-x:hidden}
   .branches-section .section-head h2{max-width:290px}
   .branch-card h3{font-size:13px}.branch-card p{font-size:10.5px}
 }
+
+/* v16 hero cleanup */
+.hero .trust-strip,
+.hero .hero-cards,
+.hero .hero-mini-cards,
+.hero .hero-features,
+.hero .mini-cards,
+.hero .hero-stats,
+.hero .hero-highlights {
+  display:none !important;
+}
+@media (min-width: 761px){
+  .hero-content, .hero-copy, .hero-inner { transform: translateY(-18px); }
+  header .container, .nav .container, .nav-inner { padding-left: 12px !important; }
+}
+@media (max-width: 760px){
+  .hero-content, .hero-copy, .hero-inner { transform: translateY(-8px); }
+  header .container, .nav .container, .nav-inner { padding-left: 6px !important; }
+}
