@@ -1,0 +1,25 @@
+JAI BHARAT GOLDEN TRANSPORT - SEO / GOOGLE SEARCH CONSOLE
+
+1. The website HTML has been updated with:
+- Brand/service keywords requested by the owner.
+- Improved page titles and meta descriptions.
+- Open Graph and Twitter metadata.
+- robots.txt and sitemap.xml.
+- Existing LocalBusiness JSON-LD on the homepage is retained.
+
+2. IMPORTANT:
+Google does NOT use the meta keywords tag for ranking. The keywords are included because they were requested, but actual ranking depends mainly on useful page content, crawlability, relevance, links, and other signals.
+
+3. GOOGLE SEARCH CONSOLE VERIFICATION:
+A fake verification token was NOT inserted. The Google verification token is unique to the Google account/property.
+Open Search Console -> Add property -> URL prefix -> enter:
+https://jai-bharat-golden-transport.onrender.com
+Choose HTML tag and copy the exact <meta name="google-site-verification" ...> tag.
+Send that exact tag to the developer/ChatGPT to insert into index.html <head>, then deploy.
+
+4. After deployment:
+- Search Console -> Sitemaps -> submit: sitemap.xml
+- URL Inspection -> inspect homepage and important pages -> Request indexing.
+
+5. LOCATION KEYWORDS:
+Only add Pune, Nagpur, Mumbai or other cities to visible website content if Jai Bharat Golden Transport actually provides service there.
